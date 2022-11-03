@@ -1,0 +1,89 @@
+body {
+  width: 375px;
+  background-color: #1c1a19;
+  padding: 0 0;
+}
+
+.prinsipal {
+  width: 375px;
+  margin: 0% 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-family: 'Crete Round', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+  width: 400px;
+  height: 92px;
+  background-color: #3c3a39;
+  margin: -10px 0 30px -30px;
+}
+
+.color {
+  color: #fff;
+}
+
+.hora {
+  display: inline-block;
+  margin: 0 20px 10px 30px;
+}
+
+.icons {
+  margin-top: 10px;
+  padding: 10px 3px;
+}
+
+.signal {
+  margin-left: 220px;
+}
+
+.name {
+  display: inline-block;
+  margin: 0 210px 0 20px;
+}
+
+.wilcome {
+  color: #ff6b00;
+  width: 327px;
+  font-size: 56px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ocupacion {
+  color: #fff;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 24px;
+}
+
+.parafo1 {
+  color: #fff;
+  font-family: 'poppins', 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 327px;
+}
+
+.s-media {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  max-width: 230px;
+}
+
+.media {
+  width: 20px;
+}
+
+.ornament {
+  background-image: url("/Porfolio/pictures/Group.svg");
+  background-size: cover;
+  background-position: left;
+  width: 120px;
+  height: 270px;
+  margin: 0 auto;
+  margin-top: -120px;
+  margin-left: 270px;
+}
