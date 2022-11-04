@@ -14,6 +14,9 @@ body {
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 400px;
   height: 92px;
   background-color: #3c3a39;
@@ -25,7 +28,7 @@ body {
 }
 
 .bxicon {
-  padding: 0 0 4px 10px;
+  padding: 35px 32px 4px 10px;
 }
 
 .name {
@@ -33,7 +36,7 @@ body {
   font-size: 20px;
   font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
-  margin: 60px 210px 0 20px;
+  margin: 60px 210px 26px 20px;
 }
 
 .nameanchor {
@@ -70,6 +73,7 @@ body {
 }
 
 .s-media {
+  list-style-type: none;
   display: flex;
   justify-content: space-around;
   align-content: flex-start;
