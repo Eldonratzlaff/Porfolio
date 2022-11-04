@@ -24,23 +24,26 @@ body {
   color: #fff;
 }
 
-.hora {
-  display: inline-block;
-  margin: 0 20px 10px 30px;
-}
-
-.icons {
-  margin-top: 10px;
-  padding: 10px 3px;
-}
-
-.signal {
-  margin-left: 220px;
+.bxicon {
+  padding: 0 0 4px 10px;
 }
 
 .name {
   display: inline-block;
-  margin: 0 210px 0 20px;
+  font-size: 20px;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  margin: 60px 210px 0 20px;
+}
+
+.nameanchor {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+.nameanchor:hover {
+  color: blue;
 }
 
 .wilcome {
@@ -78,7 +81,7 @@ body {
 }
 
 .ornament {
-  background-image: url("/Porfolio/pictures/Group.svg");
+  background-image: url("pictures/Group.svg");
   background-size: cover;
   background-position: left;
   width: 120px;
