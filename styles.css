@@ -104,7 +104,8 @@ body {
   width: 375px;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: repeat(6, 550px);
+  /* grid-template-rows: repeat(6, 550px); */
+  grid-template-rows:680px 500px 500px 500px 500px 500px ;
   background-color: #fff;
 }
 
@@ -156,6 +157,13 @@ body {
   background-color: transparent;
   padding: 10px 12px;
   border: 1px solid  #8993a4;
+  transition: 0.3s;
+}
+.my-recent li:hover{
+  background-color:#8993a4 ;
+}
+.my-recent li:active{
+  background-color:#3367c0d0 ;
 }
 
 .see-style {
@@ -168,6 +176,12 @@ body {
   font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 17px;
   font-weight: 700;
+}
+.see-style:hover{
+  background-color: #ff6a0086;
+}
+.see-style:active{
+  background-color: #4d4a49be;
 }
 
 .bak-image {
@@ -210,6 +224,13 @@ body {
   background-color: rgba(197, 192, 192, 0.3);
   padding: 10px 12px;
   border: 1px solid  #8993a4;
+  transition: .3s;
+}
+.works li:hover{
+  background-color: rgba(150, 143, 143, 0.89);
+}
+.works li:active{
+  background-color: rgb(214, 149, 64);
 }
 
 .proyect-button {
@@ -224,6 +245,13 @@ body {
   font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 17px;
   font-weight: 700;
+  transition: 0.3s;
+}
+.proyect-button:hover{
+  background-color: #ff6a0060;
+}
+.proyect-button:active{
+  background-color: #242323de;
 }
 
 .about-title {
@@ -253,13 +281,20 @@ body {
   font-size: 17px;
   font-weight: 700;
 }
+.about-me a:hover{
+  background-color: #ff6a0060;
+}
+.about-me a:active{
+  background-color: #242323de;
+}
+
 
 .ornament2 {
-  background-image: url("/Porfolio/pictures/Group2.svg");
+  background-image: url("pictures/Group2.svg");
   background-size: cover;
   background-position: left;
   width: 170px;
-  height: 270px;
+  height: 320px;
   padding: 100px 0 0 0;
   margin-top: -120px;
   margin-left: 215px;
