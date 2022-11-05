@@ -104,8 +104,7 @@ body {
   width: 375px;
   display: grid;
   grid-template-columns: auto;
-  /* grid-template-rows: repeat(6, 550px); */
-  grid-template-rows:680px 500px 500px 500px 500px 500px ;
+  grid-template-rows: 680px 500px 500px 500px 500px 500px;
   background-color: #fff;
 }
 
@@ -151,7 +150,7 @@ body {
   padding: 0;
 }
 
-.my-recent li {
+.lenguajes {
   font-size: 20px;
   font-weight: 500;
   background-color: transparent;
@@ -159,11 +158,13 @@ body {
   border: 1px solid  #8993a4;
   transition: 0.3s;
 }
-.my-recent li:hover{
-  background-color:#8993a4 ;
+
+.lenguajes:hover {
+  background-color: #8993a4;
 }
-.my-recent li:active{
-  background-color:#3367c0d0 ;
+
+.lenguajes:active {
+  background-color: #3367c0d0;
 }
 
 .see-style {
@@ -176,11 +177,14 @@ body {
   font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 17px;
   font-weight: 700;
+  transition: 0.3s;
 }
-.see-style:hover{
+
+.see-style:hover {
   background-color: #ff6a0086;
 }
-.see-style:active{
+
+.see-style:active {
   background-color: #4d4a49be;
 }
 
@@ -224,12 +228,14 @@ body {
   background-color: rgba(197, 192, 192, 0.3);
   padding: 10px 12px;
   border: 1px solid  #8993a4;
-  transition: .3s;
+  transition: 0.3s;
 }
-.works li:hover{
+
+.works li:hover {
   background-color: rgba(150, 143, 143, 0.89);
 }
-.works li:active{
+
+.works li:active {
   background-color: rgb(214, 149, 64);
 }
 
@@ -247,10 +253,12 @@ body {
   font-weight: 700;
   transition: 0.3s;
 }
-.proyect-button:hover{
+
+.proyect-button:hover {
   background-color: #ff6a0060;
 }
-.proyect-button:active{
+
+.proyect-button:active {
   background-color: #242323de;
 }
 
@@ -281,13 +289,14 @@ body {
   font-size: 17px;
   font-weight: 700;
 }
-.about-me a:hover{
+
+.about-me a:hover {
   background-color: #ff6a0060;
 }
-.about-me a:active{
+
+.about-me a:active {
   background-color: #242323de;
 }
-
 
 .ornament2 {
   background-image: url("pictures/Group2.svg");
