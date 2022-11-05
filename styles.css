@@ -160,11 +160,14 @@ body {
 }
 
 .lenguajes:hover {
-  background-color: #8993a4;
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 1px solid  #f55800;
 }
 
 .lenguajes:active {
-  background-color: #3367c0d0;
+  color: #f4f1f0;
+  background-color: #e05304;
 }
 
 .see-style {
@@ -181,11 +184,14 @@ body {
 }
 
 .see-style:hover {
-  background-color: #ff6a0086;
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 1px solid  #f55800;
 }
 
 .see-style:active {
-  background-color: #4d4a49be;
+  color: #f4f1f0;
+  background-color: #e05304;
 }
 
 .bak-image {
@@ -255,11 +261,14 @@ body {
 }
 
 .proyect-button:hover {
-  background-color: #ff6a0060;
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 1px solid  #f55800;
 }
 
 .proyect-button:active {
-  background-color: #242323de;
+  color: #f4f1f0;
+  background-color: #e05304;
 }
 
 .about-title {
@@ -291,11 +300,14 @@ body {
 }
 
 .about-me a:hover {
-  background-color: #ff6a0060;
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 1px solid  #f55800;
 }
 
 .about-me a:active {
-  background-color: #242323de;
+  color: #f4f1f0;
+  background-color: #e05304;
 }
 
 .ornament2 {
