@@ -320,3 +320,27 @@ body {
   margin-top: -120px;
   margin-left: 215px;
 }
+
+.form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-name {
+  border: none;
+  border-bottom: 1px solid rgb(141, 139, 139);
+  margin: 10px;
+}
+
+.form-email {
+  border: none;
+  border-bottom: 1px solid rgb(141, 139, 139);
+  margin: 10px;
+}
+
+.form-coment {
+  background-color: #cfd2d6;
+  height: 150px;
+  margin: 10px;
+}
