@@ -340,7 +340,8 @@ body {
 }
 
 .form-coment {
-  background-color: #cfd2d6;
+  background-color: #fbf8f7;
   height: 150px;
   margin: 10px;
+  border: none;
 }
