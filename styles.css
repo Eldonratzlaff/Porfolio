@@ -345,3 +345,31 @@ body {
   margin: 10px;
   border: none;
 }
+
+.form p {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  width: 327px;
+  height: 216px;
+  display: flex;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.form button {
+  background-color: #ff6b00;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 110px;
+  height: 48px;
+  font-weight: 700;
+  color:#fff;
+  margin-left: 110px; 
+}
