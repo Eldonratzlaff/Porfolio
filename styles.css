@@ -328,18 +328,23 @@ body {
 }
 
 .form-name {
+  font-size: 15px;
   border: none;
   border-bottom: 1px solid rgb(141, 139, 139);
   margin: 10px;
+  padding: 15px;
 }
 
 .form-email {
+  font-size: 15px;
   border: none;
   border-bottom: 1px solid rgb(141, 139, 139);
   margin: 10px;
+  padding: 15px;
 }
 
 .form-coment {
+  font-size: 15px;
   background-color: #fbf8f7;
   height: 150px;
   margin: 10px;
@@ -370,6 +375,6 @@ body {
   width: 110px;
   height: 48px;
   font-weight: 700;
-  color:#fff;
-  margin-left: 110px; 
+  color: #fff;
+  margin-left: 110px;
 }

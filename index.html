@@ -124,12 +124,14 @@
 <footer class="form">
 <form class="form" action="https://formspree.io/f/xaykaovn" method="post">
 <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-<input class="form-name" placeholder="Full name" type="text" name="" id="">
-<input class="form-email" placeholder="Email address" type="email" name="" id="">
+<input class="form-name" placeholder="Full name" type="text" name="form_name" id="" required>
+<input class="form-email" placeholder="Email address" type="email" name="form_email" id="" required >
 <!-- <input class="form-coment" placeholder="Enter text here" type="text"  maxlength="500" name="" id=""> -->
-<textarea class="form-coment" placeholder="Enter text here" name="" id="" cols="30" rows="10"></textarea>
+<textarea class="form-coment" placeholder="Enter text here" name="form_coment" id="" cols="30" rows="10" required></textarea>
 <button type="submit" >Get in touch</button>
 </form>
+
+
 <ul class="s-media">
   <li class="cat media"><img src="pictures/cat.svg" alt=""></li>
   <li class="in media"><img src="pictures/linkedin.svg" alt=""></li>
