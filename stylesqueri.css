@@ -1,0 +1,34 @@
+@media only screen and (min-width: 768px) {
+  body { width: auto; }
+
+  .prinsipal {
+    width: auto;
+  }
+
+  .navbar {
+    width: auto;
+  }
+
+  .wilcome {
+    font-size: 72px;
+    width: 566px;
+    height: 160px;
+  }
+
+  .ocupacion {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    width: 566px;
+    height: 24px;
+  }
+
+  .ornament {
+    display: flex;
+    width: auto;
+    height: 800px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    justify-content: end;
+  }
+}
