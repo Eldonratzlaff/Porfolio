@@ -2,97 +2,148 @@
   body {
     width: 100%;
   }
-
+.first{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+overflow: auto;
+justify-content: space-between;
+}
   .prinsipal {
-    width: 100%;
-    display: inline;
-
+  
+    max-width: 496px;
+    /* display:flex; */
+    display: inline-block;
     /* width: auto; */
-
-    /* flex-direction: row; */
+align-items: center;
+justify-content: space-between;
   }
 
   .navbar {
+    padding-left: 30px;
     width: 100%;
   }
 
   .wilcome {
+    padding-left: 30px;
     font-size: 72px;
-    width: 100%;
+   width: 496px;
     height: 160px;
   }
 
   .ocupacion {
-    float: left;
+    padding-left: 30px;
+   
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
 
     /* width: 566px; */
-    width: 100%;
+    width: 496px;
     height: 24px;
   }
-
+  .parafo1 {
+    
+    width:  566px;
+    padding-left: 30px;
+    font-size: 28px;
+  }
+  .s-media{
+    
+    width: 50px;
+    flex-direction: column;
+    
+  }
   .ornament {
-    /* display: inline; */
-
-    /* float: left; */
-    width: auto;
-    height: 800px;
+    display: inline-block;
+  
+    width: 100%;
+    height: 870px;
+    margin:0px 0px 0px 200px;
     background-size: contain;
     background-repeat: no-repeat;
-
-    /* justify-content: end; */
   }
 
   .my-recent {
     grid-area: my-recent;
-
-    /* width: 100%; */
+    width: 100%;
+  }
+.recent-title{
+display: block;
+line-height: 52px;
+}
+  .recent-img {
+    width: 684px;
+    float: left;
   }
 
-  .see-style{
-    overflow:auto;
+  .see-style {
+    overflow: auto;
   }
+
   .works1 {
     grid-area: works1;
+    background-image: url(pictures-desktop/Img\ Placeholder.svg);
   }
 
   .works2 {
     grid-area: works2;
+    background-image: url(pictures-desktop/Img\ Placeholde2.svg);
+  }
+
+  .works2 a {
+    display: none;
   }
 
   .works3 {
     grid-area: works3;
+    background-image: url(pictures-desktop/Img\ Placeholder3.svg);
+  }
+
+  .works3 a {
+    display: none;
   }
 
   .works4 {
     grid-area: works4;
   }
 
+  .works4 a {
+    display: none;
+  }
+
   .works5 {
     grid-area: works5;
+    background-image: url(pictures-desktop/Img\ Placeholde2.svg);
+  }
+
+  .works5 a {
+    display: none;
   }
 
   .works6 {
     grid-area: works6;
+    background-image: url(pictures-desktop/Img\ Placeholder3.svg);
+  }
+
+  .works6 a {
+    display: none;
   }
 
   .works-title .works-contend .works {
     width: 100%;
-    height: 100%;
   }
 
   .middle-section {
     overflow: auto;
     width: 100%;
-    padding: 0 10px;
+    padding: 10px 19px;
     grid-gap: 8px;
     grid-template-areas:
       "my-recent my-recent my-recent"
       "works1 works2 works3"
       "works4 works5 works6";
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1.3fr 1fr 1fr;
   }
 }
