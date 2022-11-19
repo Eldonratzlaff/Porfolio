@@ -50,8 +50,6 @@ body {
   transition: 0.6s;
 }
 
-
-
 .wilcome {
   color: #ff6b00;
   width: 327px;
@@ -255,7 +253,6 @@ body {
   font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 17px;
   font-weight: 700;
-  transition-delay: 3s;
   transition: 0.3s;
 }
 
@@ -320,12 +317,46 @@ body {
   margin-left: 215px;
 }
 
+.abaut-lists {
+  display: flex;
+  flex-direction: column;
+  color: #f4f1f0;
+  text-align: center;
+}
+
+.abaut-lists-ul {
+  padding: 0;
+  margin: 5px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.abaut-lists-li {
+  line-height: 43px;
+  font-family: 'Impact', 'Arial Narrow Bold', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  list-style-type: none;
+
+  /* text-align: center; */
+}
+
 .form {
   background-color: white;
   display: flex;
   flex-direction: column;
 }
+.form-intro{
+  display: inline-block;
+  width: 375px;
+ 
+}
 
+.form-form{
+display: inline-block; 
+width: 375px;
+  
+}
 .form-name {
   font-size: 15px;
   border: none;

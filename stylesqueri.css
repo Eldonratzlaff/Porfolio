@@ -2,38 +2,43 @@
   body {
     width: 100%;
   }
-.first{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+
+  .first {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-overflow: auto;
-justify-content: space-between;
-}
+    overflow: auto;
+    justify-content: space-between;
+  }
+
   .prinsipal {
-  
     max-width: 496px;
+
     /* display:flex; */
     display: inline-block;
+
     /* width: auto; */
-align-items: center;
-justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .navbar {
+    width: 1000px;
+    display: block;
     padding-left: 30px;
-    width: 100%;
+
+    /* width: 100%; */
   }
 
   .wilcome {
     padding-left: 30px;
     font-size: 72px;
-   width: 496px;
+    width: 496px;
     height: 160px;
   }
 
   .ocupacion {
     padding-left: 30px;
-   
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
@@ -42,36 +47,41 @@ justify-content: space-between;
     width: 496px;
     height: 24px;
   }
+
   .parafo1 {
-    
-    width:  566px;
+    width: 566px;
     padding-left: 30px;
     font-size: 28px;
   }
-  .s-media{
-    
+
+  .s-media {
     width: 50px;
     flex-direction: column;
-    
   }
+
   .ornament {
     display: inline-block;
-  
     width: 100%;
-    height: 870px;
-    margin:0px 0px 0px 200px;
+    height: 1000px;
+    margin: 0 0 0 190px;
     background-size: contain;
     background-repeat: no-repeat;
+
+    /* -o-object-fit: cover; */
+
+    /* object-position: right; */
   }
 
   .my-recent {
     grid-area: my-recent;
     width: 100%;
   }
-.recent-title{
-display: block;
-line-height: 52px;
-}
+
+  .recent-title {
+    display: block;
+    line-height: 52px;
+  }
+
   .recent-img {
     width: 684px;
     float: left;
@@ -146,4 +156,26 @@ line-height: 52px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1.3fr 1fr 1fr;
   }
+
+  .abaut-lists div {
+    width: 240px;
+  }
+
+  .abaut-lists {
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+.form{
+  flex-direction: row;
+}
+.font-intro{
+  font-size: 40px;
+  font-weight: 700px;
+}
+.form-form{
+  width: 450px;
+}
+
+
 }
